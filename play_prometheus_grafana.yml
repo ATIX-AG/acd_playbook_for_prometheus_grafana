@@ -1,0 +1,23 @@
+---
+- hosts: all
+  pre_tasks:
+    - name: Ensure Centos 7
+      assert:
+        that:
+          - ansible_distribution == 'CentOS'
+          - ansible_distribution_version is version('7', '>=')
+          - ansible_distribution_version is version('8', '<')
+        msg: "Unfortunately for now only CentOS-7 is supported."
+
+- hosts: prometheus
+  roles:
+    - role: prometheus
+      tags:
+        - prometheus
+
+- hosts: grafana
+  roles:
+    - role: grafana
+      tags:
+        - grafana
+...

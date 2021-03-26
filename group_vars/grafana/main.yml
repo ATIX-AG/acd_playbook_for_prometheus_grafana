@@ -1,0 +1,10 @@
+---
+gfn_arch: "x86_64"
+gfn_vers: "7.3.7-1"
+gfn_dl_link_base: "https://dl.grafana.com/oss/release/grafana"
+gfn_dl_link: "{{gfn_dl_link_base}}-{{gfn_vers}}.{{gfn_arch}}.rpm"
+gfn_port: "3000"
+gfn_custom_dashboard: ""
+gfn_admin_user: "admin"
+gfn_admin_password: "atix0815!"
+...

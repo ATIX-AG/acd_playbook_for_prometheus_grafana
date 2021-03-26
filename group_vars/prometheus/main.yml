@@ -1,0 +1,12 @@
+---
+pmt_arch: "amd64"
+pmt_os: "linux"
+pmt_vers: "2.24.1"
+pmt_dl_link_base: "https://github.com/prometheus/prometheus/releases/download/"
+pmt_dl_link: "{{pmt_dl_link_base}}v{{pmt_vers}}/{{pmt_filename}}"
+pmt_filename: "prometheus-{{pmt_vers}}.{{pmt_os}}-{{pmt_arch}}.tar.gz"
+pmt_dir: "/home/prometheus/prometheus"
+pmt_dl_dest: "{{pmt_dir}}/{{pmt_filename}}"
+pmt_glbl_scrape_interval: "10s"
+pmt_job_scrape_interval: "5s"
+...
