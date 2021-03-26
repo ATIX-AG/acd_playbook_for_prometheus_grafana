@@ -1,3 +1,5 @@
+![example workflow](https://github.com/ATIX-AG/acd_playbook_for_prometheus_grafana/.github/workflows/main.yml/badge.svg)
+
 ## Ansible Playbook for Prometheus and Grafana ACD
 
 ## Operating Systems
