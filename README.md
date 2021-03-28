@@ -1,4 +1,4 @@
-![build status](https://github.com/ATIX-AG/acd_playbook_for_prometheus_grafana/.github/workflows/lint/badge.svg)
+[![build status](https://github.com/ATIX-AG/acd_playbook_for_prometheus_grafana/workflows/lint/badge.svg)](https://github.com/ATIX-AG/acd_playbook_for_prometheus_grafana/actions)
 
 ## Ansible Playbook for Prometheus and Grafana ACD
 
