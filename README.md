@@ -8,12 +8,14 @@ This playbook currently supports managed hosts running CentOS 7.
 
 ## Description
 
-This playbook aims to demonstrate the usage of Foreman ACD by installing Prometheus and a connected Grafana.
+This playbook demonstrates the usage of Foreman ACD by installing Prometheus and a connected Grafana.
 It consists of two roles:
 - prometheus - a role to set up and install prometheus
-  This role also configures the firewall by opening the prometheus-corresponding ports
+
+  This role also configures the firewall by opening the prometheus-corresponding ports.
 - grafana - a role to set up and install a grafana scraping from prometheus
-  This role also configures the firewall by opening the grafana-corresponding ports
+
+  This role also configures the firewall by opening the grafana-corresponding ports.
 
 For a basic setup via ACD, the variables can be used as found in the `group_vars` directory:
 
@@ -84,3 +86,4 @@ gfn_admin_password   | Admin User Password      | atix0815!                     
 ## Documentation
 
 * [Application Centric Deployment Guide](https://docs.orcharhino.com/or/docs/sources/usage_guides/application_centric_deployment_guide.html) in the orcharhino documentation
+* [Deploying a Prometheus and Grafana Cluster Using Application Centric Deployment](https://orcharhino.com/deploying-a-prometheus-and-grafana-cluster-using-application-centric-deployment/) on the orcharhino blog
